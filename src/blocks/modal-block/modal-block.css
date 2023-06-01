@@ -1,0 +1,21 @@
+.modal-block {
+  width: 100%;
+  max-width: 430px;
+  border-radius: 10px;
+  padding: 34px 36px 37px;
+
+  position: relative;
+  
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, .15);
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 768px) {
+  .modal-block {
+    max-width: 282px;
+    padding: 25px 22px;
+  }
+}

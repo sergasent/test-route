@@ -1,0 +1,10 @@
+.modal-form__button_disabled {
+  border: 1px solid #000;
+
+  pointer-events: none;
+
+  background: #FFF;
+  opacity: .2;
+
+  color: #000;
+}

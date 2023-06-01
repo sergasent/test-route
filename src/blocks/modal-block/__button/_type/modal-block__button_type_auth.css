@@ -1,0 +1,11 @@
+.modal-block__button_type_auth {
+  min-height: 52px;
+  margin-top: 167px;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-block__button_type_auth {
+    min-height: 48px;
+    margin-top: 96px;
+  }
+}

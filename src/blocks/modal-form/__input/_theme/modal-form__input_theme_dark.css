@@ -1,0 +1,9 @@
+.modal-form__input_theme_dark {  
+  border-bottom: 2px solid #CCCCCC;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.modal-form__input_theme_dark::placeholder {  
+  color: #CCCCCC;
+}

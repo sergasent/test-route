@@ -1,0 +1,8 @@
+.modal-block__link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.modal-block__link:hover {
+  opacity: .6;
+}

@@ -1,0 +1,15 @@
+.modal-block_type_auth {
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 15px;
+
+  background-color: inherit;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-block_type_auth {
+    max-width: 282px;
+    padding: 40px 11px 20px;
+  }
+}

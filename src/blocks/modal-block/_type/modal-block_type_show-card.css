@@ -1,0 +1,11 @@
+.modal-block_type_show-card {
+  width: auto;
+  max-width: 75vw;
+  padding: 0;
+  border-radius: 0;
+
+  display: flex;
+  justify-content: center;
+
+  background: transparent;
+}

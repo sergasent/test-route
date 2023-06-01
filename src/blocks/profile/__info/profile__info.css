@@ -1,0 +1,25 @@
+.profile__info {
+  max-width: 366px;
+  padding-right: 30px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: minmax(min-content, max-content);
+  align-items: start;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 645px) {
+  .profile__info {
+    padding-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+
+    grid-template-columns: 18px auto auto;
+    column-gap: 10px;
+  }
+}

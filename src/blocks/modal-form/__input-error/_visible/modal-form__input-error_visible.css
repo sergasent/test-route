@@ -1,0 +1,6 @@
+.modal-form__input-error_visible {
+  visibility: visible;
+  opacity: 1;
+
+  transition: visibility 0s linear, opacity .3s;
+}

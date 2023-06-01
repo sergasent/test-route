@@ -1,0 +1,11 @@
+.modal-form__input-error {
+  min-height: 25px;
+
+  visibility: hidden;
+  opacity: 0;
+
+  color: #FF0000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}

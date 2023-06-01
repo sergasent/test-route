@@ -1,0 +1,17 @@
+.modal-block__title {
+  margin: 0 0 48px;
+
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.21;
+}
+
+
+@media screen and (max-width: 768px) {
+  .modal-block__title {
+    margin: 0 0 75px;
+
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}

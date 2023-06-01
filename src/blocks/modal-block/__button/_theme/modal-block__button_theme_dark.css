@@ -1,0 +1,8 @@
+.modal-block__button_theme_dark {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.modal-block__button_theme_dark:hover {
+  background: rgba(255, 255, 255, .85);
+}
