@@ -167,7 +167,7 @@ const App = () => {
         if (res.token) {
           setUserEmail(data.email || '');
           setLoggedIn(true);
-          navigate('/', { replace: true });
+          navigate('./', { replace: true });
         }
       })
       .catch((e) => {
@@ -207,7 +207,7 @@ const App = () => {
             if (userData) {
               setUserEmail(userData.data.email || '');
               setLoggedIn(true);
-              navigate('/', { replace: true });
+              navigate('./', { replace: true });
             }
           })
           .catch((e) => {
@@ -253,7 +253,7 @@ const App = () => {
           <Header logo={logo} headerState={headerState} isMobileView={isMobileView} />
           <Routes>
             <Route
-              path="/"
+              path="./"
               element={(
                 <ProtectedRoute
                   element={Main}
